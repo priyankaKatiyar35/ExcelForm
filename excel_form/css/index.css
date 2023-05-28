@@ -1,0 +1,41 @@
+*{transition:all 0.3s ease-in-out;
+  padding: 0px;
+  margin: 0px;
+  }
+  
+  .nav-container{
+    clear:both;
+    overflow:auto;
+    background-color:rgb(69, 60, 146);
+  }
+  
+  nav {float:right;
+  color: white;
+  }
+  
+  .logo img{float:left;
+  padding: 10px;}
+  
+  ul li{
+    display: inline-block; padding:20px;
+    font-size:20px; font-family:raleway;
+  }
+  
+  ul li:hover{
+    color:orange;
+    
+  }
+  li a{
+    color:white;
+  }
+  .sticky {
+    position: fixed;
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  
